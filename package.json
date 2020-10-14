@@ -1,0 +1,26 @@
+{
+  "name": "googleauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env DB_ENV=testing jest --watchAll",
+    "server": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "google-auth-library": "^6.1.1",
+    "knex": "^0.21.6",
+    "open": "^7.3.0",
+    "server-destroy": "^1.0.1",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.5.3",
+    "nodemon": "^2.0.4"
+  }
+}
