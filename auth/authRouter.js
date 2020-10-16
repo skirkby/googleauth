@@ -3,9 +3,9 @@ const router = express.Router();
 
 
 router.get('/register', (req, res, next) => {
-    const { authCode } = req.query;
+    const { code } = req.query;
 
-    res.send(`code = ${authCode}`);
+    res.send(`code = ${code}`);
 })
 
 module.exports = router;
