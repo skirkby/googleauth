@@ -21,12 +21,12 @@ server.get('/', async (req, res) => {
 
         // Make a simple request to the People API using our pre-authenticated client. The `request()` method
         // takes an GaxiosOptions object.  Visit https://github.com/JustinBeckwith/gaxios.
-        const url = 'https://people.googleapis.com/v1/people/me?personFields=names';
-        const resp = await oAuth2Client.request({ url });
-        console.log(resp.data);
+        // const url = 'https://people.googleapis.com/v1/people/me?personFields=names';
+        // const resp = await oAuth2Client.request({ url });
+        // console.log(resp.data);
 
 
-        res.json({ message: 'api up' });
+        res.json({ message: 'api up', token: tokenInfo });
     } catch (error) {
         console.log(error);
         res.status(500).json(error);
