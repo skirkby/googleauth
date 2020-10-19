@@ -7,7 +7,7 @@ const { OAuth2Client } = require('google-auth-library');
 
 
 
-router.get('/register', (req, res, next) => {
+router.get('/register', async (req, res, next) => {
     try {
         const { code } = req.query;
 
