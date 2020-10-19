@@ -31,7 +31,7 @@ router.get('/register', async (req, res, next) => {
         // console.log(resp.data);
 
 
-        res.json({ message: 'api up', token: tokenInfo });
+        res.json({ message: 'api up', tokens: oAuth2Client.credentials });
     } catch (error) {
         console.log(error);
         res.status(500).json(error);
