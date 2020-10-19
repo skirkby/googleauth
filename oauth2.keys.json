@@ -1,12 +1,11 @@
 {
     "web": {
-        "client_id": "572046146859-7j2pnj58o672l27ggnpnf3lnqad2avm1.apps.googleusercontent.com",
-        "project_id": "awesome-aurora-291602",
+        "client_id": "110998841151-0h8i2a5f23pndusr31i9sg83hntaeffg.apps.googleusercontent.com",
+        "project_id": "savvy-courage-292711",
         "auth_uri": "https://accounts.google.com/o/oauth2/auth",
         "token_uri": "https://oauth2.googleapis.com/token",
         "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_secret": "4B1S1QmIY3KKLzTn8WpZV62X",
-        "redirect_uris": ["http://localhost:3000/oauth2callback"],
-        "javascript_origins": ["https://localhost:3000"]
+        "client_secret": "1XziMLZmgQbPDDdjpM5R7BMm",
+        "redirect_uris": ["https://oauth-webapi.herokuapp.com/auth/register", "https://oauth-webapi.herokuapp.com/auth/login"]
     }
 }
