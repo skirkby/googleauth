@@ -4,7 +4,7 @@ const authRouter = require('../auth/authRouter.js');
 
 server.use(express.json());
 
-server.use('/api/auth', authRouter);
+server.use('/auth', authRouter);
 
 
 server.get('/', async (req, res) => {
