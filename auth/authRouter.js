@@ -29,7 +29,7 @@ router.get('/register', async (req, res, next) => {
         const url = 'https://people.googleapis.com/v1/people/me?personFields=names';
         url = 'https://people.googleapis.com/v1/people:listDirectoryPeople';
         const apiData = await oAuth2Client.request({ url });
-        console.log(apiData.data);
+        console.log(apiData.people);
 
 
         res.json({ message: 'api up', tokens: oAuth2Client.credentials, data: apiData });
