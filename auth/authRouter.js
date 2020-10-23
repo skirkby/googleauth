@@ -29,7 +29,7 @@ router.get('/register', async (req, res, next) => {
         // Make a simple request to the People API using our pre-authenticated client. The `request()` method
         // takes an GaxiosOptions object.  Visit https://github.com/JustinBeckwith/gaxios.
         let url = 'https://people.googleapis.com/v1/people/me?personFields=names';
-        url = 'https://people.googleapis.com/v1/people:listDirectoryPeople?readMask=names,addresses&sources=DIRECTORY_SOURCE_TYPE_DOMAIN_PROFILE';
+        url = 'https://people.googleapis.com/v1/people:listDirectoryPeople?readMask=names.displayName&sources=DIRECTORY_SOURCE_TYPE_DOMAIN_PROFILE';
         const apiData = await oAuth2Client.request({ url });
         console.log(apiData);
         console.log(apiData.people);

@@ -1,1 +1,365 @@
-{ "response": { "config": { "url": "https://people.googleapis.com/v1/people:listDirectoryPeople", "headers": { "Authorization": "Bearer ya29.a0AfH6SMBvCJIswnBjDJ-9xn_V5AA83d_JkLgbVJnML4eusHuZ0MkW1stMhCdMp4dhvJt1wiOtMtK3Y4oTnJwhjdjluAXDsSrvB7-C9XdwrBo4LPZEJxYJXV0BCKP0f3SIpNu65AJUjHXcGUKLjsLHVEoXBNQF37mZcIg", "User-Agent": "google-api-nodejs-client/6.1.1", "x-goog-api-client": "gl-node/12.19.0 auth/6.1.1", "Accept": "application/json" }, "params": { }, "responseType": "json", "method": "GET" }, "data": { "error": { "code": 400, "message": "readMask is required. Please specify one or more valid paths. Valid paths are documented at https://developers.google.com/people/api/rest/v1/people/get.", "errors": [{ "message": "readMask is required. Please specify one or more valid paths. Valid paths are documented at https://developers.google.com/people/api/rest/v1/people/get.", "domain": "global", "reason": "badRequest" }], "status": "INVALID_ARGUMENT" } }, "headers": { "alt-svc": "h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"", "cache-control": "private", "connection": "close", "content-encoding": "gzip", "content-type": "application/json; charset=UTF-8", "date": "Fri, 23 Oct 2020 20:48:54 GMT", "server": "ESF", "transfer-encoding": "chunked", "vary": "Origin, X-Origin, Referer", "x-content-type-options": "nosniff", "x-frame-options": "SAMEORIGIN", "x-xss-protection": "0" }, "status": 400, "statusText": "Bad Request", "request": { "responseURL": "https://people.googleapis.com/v1/people:listDirectoryPeople" } }, "config": { "url": "https://people.googleapis.com/v1/people:listDirectoryPeople", "headers": { "Authorization": "Bearer ya29.a0AfH6SMBvCJIswnBjDJ-9xn_V5AA83d_JkLgbVJnML4eusHuZ0MkW1stMhCdMp4dhvJt1wiOtMtK3Y4oTnJwhjdjluAXDsSrvB7-C9XdwrBo4LPZEJxYJXV0BCKP0f3SIpNu65AJUjHXcGUKLjsLHVEoXBNQF37mZcIg", "User-Agent": "google-api-nodejs-client/6.1.1", "x-goog-api-client": "gl-node/12.19.0 auth/6.1.1", "Accept": "application/json" }, "params": { }, "responseType": "json", "method": "GET" }, "code": 400, "errors": [{ "message": "readMask is required. Please specify one or more valid paths. Valid paths are documented at https://developers.google.com/people/api/rest/v1/people/get.", "domain": "global", "reason": "badRequest" }] };
+{
+    "message": "api up",
+    "tokens": {
+        "access_token": "ya29.a0AfH6SMAfJr39xXrd_Yq4S-eq3HLQb7CATJZRVU5t5AYlpahs_4pMSF2qNFGiYgqmo9p-0mCkAO9te3czDCrsH2Bv49Tryj1ct5uZVb-A2aAgDYhYEKihW4G6nhwC8AhE0ws9gQg5qsFfuSsd95qUkePU7AipzjLBzWY",
+        "scope": "https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/directory.readonly openid",
+        "token_type": "Bearer",
+        "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE3OGFiMWRjNTkxM2Q5MjlkMzdjMjNkY2FhOTYxODcyZjhkNzBiNjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMTA5OTg4NDExNTEtMGg4aTJhNWYyM3BuZHVzcjMxaTlzZzgzaG50YWVmZmcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIxMTA5OTg4NDExNTEtMGg4aTJhNWYyM3BuZHVzcjMxaTlzZzgzaG50YWVmZmcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDIzNTQyMDM5ODk3MTc1NTU0NTIiLCJhdF9oYXNoIjoicFh6MjI1a1R5WnNadk5HWDZGSm5hdyIsIm5vbmNlIjoibWVuIHdpdGhvdXQgaGF0cyIsIm5hbWUiOiJTZWFuIEtpcmtieSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQU9oMTRHaTEwcmwyaFo4OFRHcy1XMHphRzQ3Qk0xRzhFUnFjb1FPdGFhSEdKcHc9czk2LWMiLCJnaXZlbl9uYW1lIjoiU2VhbiIsImZhbWlseV9uYW1lIjoiS2lya2J5IiwibG9jYWxlIjoiZW4iLCJpYXQiOjE2MDM0ODkzMDUsImV4cCI6MTYwMzQ5MjkwNX0.hi_tEdtsu8QNq_OGqRDxcuDNgpyG7JTtDZ2Bsl_8DoE5hDN2Spuatb2dJvrpDrpmDZXFySLVqqNBtJ98PhqmFziST7EWVywhatcfs5bL0lxjD09-Ou2WA_q9wLk6ug0yTGJpgsdsBl4jLyrX_-An9P5Z1XAw8k3tRNAdmdfWOPG_r5HeSNplFWNmMSC2WGTaCWkxn3sr8DT4fQV3X_OD3HifoC_DGrmMTipeE4CXD1j8MpB5gwZ7AD44JQUkILbhOIGod9lnZ_hxWrHauLIqch8zTBUwlUCYRzC_oiNQyHF_XUQoaBZspOTKri8xBx1Q1gKqw7kHJlB0kwwSnyHIgw",
+        "expiry_date": 1603492904186
+    },
+    "data": {
+        "config": {
+            "url": "https://people.googleapis.com/v1/people:listDirectoryPeople?readMask=names%2Caddresses&sources=DIRECTORY_SOURCE_TYPE_DOMAIN_PROFILE",
+            "headers": {
+                "Authorization": "Bearer ya29.a0AfH6SMAfJr39xXrd_Yq4S-eq3HLQb7CATJZRVU5t5AYlpahs_4pMSF2qNFGiYgqmo9p-0mCkAO9te3czDCrsH2Bv49Tryj1ct5uZVb-A2aAgDYhYEKihW4G6nhwC8AhE0ws9gQg5qsFfuSsd95qUkePU7AipzjLBzWY",
+                "User-Agent": "google-api-nodejs-client/6.1.1",
+                "x-goog-api-client": "gl-node/12.19.0 auth/6.1.1",
+                "Accept": "application/json"
+            },
+            "params": {
+                "readMask": "names,addresses",
+                "sources": "DIRECTORY_SOURCE_TYPE_DOMAIN_PROFILE"
+            },
+            "responseType": "json",
+            "method": "GET"
+        },
+        "data": {
+            "people": [{
+                "resourceName": "people/103177312806583469083",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "103177312806583469083"
+                        }
+                    },
+                    "displayName": "Family, SKirkby",
+                    "familyName": "Family",
+                    "givenName": "SKirkby",
+                    "displayNameLastFirst": "Family, SKirkby",
+                    "unstructuredName": "SKirkby Family"
+                }]
+            }, {
+                "resourceName": "people/112218238759853340086",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "112218238759853340086"
+                        }
+                    },
+                    "displayName": "Kirkby, Liz",
+                    "familyName": "Kirkby",
+                    "givenName": "Liz",
+                    "displayNameLastFirst": "Kirkby, Liz",
+                    "unstructuredName": "Liz Kirkby"
+                }]
+            }, {
+                "resourceName": "people/105658923659700681035",
+                "etag": "%EgcBAj0QQDcuGgIBBw=="
+            }, {
+                "resourceName": "people/112351282597863966840",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "112351282597863966840"
+                        }
+                    },
+                    "displayName": "Stewart, Brianne",
+                    "familyName": "Stewart",
+                    "givenName": "Brianne",
+                    "displayNameLastFirst": "Stewart, Brianne",
+                    "unstructuredName": "Brianne Stewart"
+                }]
+            }, {
+                "resourceName": "people/112309663133232943883",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "112309663133232943883"
+                        }
+                    },
+                    "displayName": "Nielsen, Jessica",
+                    "familyName": "Nielsen",
+                    "givenName": "Jessica",
+                    "displayNameLastFirst": "Nielsen, Jessica",
+                    "unstructuredName": "Jessica Nielsen"
+                }]
+            }, {
+                "resourceName": "people/111123645121968671022",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "111123645121968671022"
+                        }
+                    },
+                    "displayName": "Kirkby, Nathan",
+                    "familyName": "Kirkby",
+                    "givenName": "Nathan",
+                    "displayNameLastFirst": "Kirkby, Nathan",
+                    "unstructuredName": "Nathan Kirkby"
+                }]
+            }, {
+                "resourceName": "people/102354203989717555452",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "102354203989717555452"
+                        }
+                    },
+                    "displayName": "Kirkby, Sean",
+                    "familyName": "Kirkby",
+                    "givenName": "Sean",
+                    "displayNameLastFirst": "Kirkby, Sean",
+                    "unstructuredName": "Sean Kirkby"
+                }]
+            }, {
+                "resourceName": "people/111510807261929853067",
+                "etag": "%EgcBAj0QQDcuGgIBBw=="
+            }, {
+                "resourceName": "people/109798176198424758859",
+                "etag": "%EgcBAj0QQDcuGgIBBw=="
+            }, {
+                "resourceName": "people/114071827828852842987",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "114071827828852842987"
+                        }
+                    },
+                    "displayName": "Kirkby, Brian",
+                    "familyName": "Kirkby",
+                    "givenName": "Brian",
+                    "displayNameLastFirst": "Kirkby, Brian",
+                    "unstructuredName": "Brian Kirkby"
+                }]
+            }, {
+                "resourceName": "people/104269718195825835350",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "104269718195825835350"
+                        }
+                    },
+                    "displayName": "Kirkby, Warren",
+                    "familyName": "Kirkby",
+                    "givenName": "Warren",
+                    "displayNameLastFirst": "Kirkby, Warren",
+                    "unstructuredName": "Warren Kirkby"
+                }]
+            }, {
+                "resourceName": "people/101053582140926510946",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "101053582140926510946"
+                        }
+                    },
+                    "displayName": "Kirkby, Vanessa",
+                    "familyName": "Kirkby",
+                    "givenName": "Vanessa",
+                    "displayNameLastFirst": "Kirkby, Vanessa",
+                    "unstructuredName": "Vanessa Kirkby"
+                }]
+            }, {
+                "resourceName": "people/107411931401231327738",
+                "etag": "%EgcBAj0QQDcuGgIBBw=="
+            }, {
+                "resourceName": "people/107431588102094793107",
+                "etag": "%EgcBAj0QQDcuGgIBBw=="
+            }, {
+                "resourceName": "people/115978321851827565004",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "115978321851827565004"
+                        }
+                    },
+                    "displayName": "Family, WKirkby",
+                    "familyName": "Family",
+                    "givenName": "WKirkby",
+                    "displayNameLastFirst": "Family, WKirkby",
+                    "unstructuredName": "WKirkby Family"
+                }]
+            }, {
+                "resourceName": "people/105511885824776701345",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "105511885824776701345"
+                        }
+                    },
+                    "displayName": "Kirkby, Mikayla",
+                    "familyName": "Kirkby",
+                    "givenName": "Mikayla",
+                    "displayNameLastFirst": "Kirkby, Mikayla",
+                    "unstructuredName": "Mikayla Kirkby"
+                }]
+            }, {
+                "resourceName": "people/115605469401858656068",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "115605469401858656068"
+                        }
+                    },
+                    "displayName": "Kirkby, Austin",
+                    "familyName": "Kirkby",
+                    "givenName": "Austin",
+                    "displayNameLastFirst": "Kirkby, Austin",
+                    "unstructuredName": "Austin Kirkby"
+                }]
+            }, {
+                "resourceName": "people/109893621843454795996",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "109893621843454795996"
+                        }
+                    },
+                    "displayName": "Kirkby, Angela",
+                    "familyName": "Kirkby",
+                    "givenName": "Angela",
+                    "displayNameLastFirst": "Kirkby, Angela",
+                    "unstructuredName": "Angela Kirkby"
+                }]
+            }, {
+                "resourceName": "people/118032678552636079814",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "118032678552636079814"
+                        }
+                    },
+                    "displayName": "Kirkby, Jackson",
+                    "familyName": "Kirkby",
+                    "givenName": "Jackson",
+                    "displayNameLastFirst": "Kirkby, Jackson",
+                    "unstructuredName": "Jackson Kirkby"
+                }]
+            }, {
+                "resourceName": "people/107210344968326561056",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "107210344968326561056"
+                        }
+                    },
+                    "displayName": "Kirkby, Amanda",
+                    "familyName": "Kirkby",
+                    "givenName": "Amanda",
+                    "displayNameLastFirst": "Kirkby, Amanda",
+                    "unstructuredName": "Amanda Kirkby"
+                }],
+                "addresses": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "DOMAIN_PROFILE",
+                            "id": "107210344968326561056"
+                        }
+                    },
+                    "formattedValue": "mander@kirkby.org",
+                    "type": "home",
+                    "formattedType": "Home"
+                }]
+            }, {
+                "resourceName": "people/110980455162024880159",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "110980455162024880159"
+                        }
+                    },
+                    "displayName": "Kirkby, Hannah",
+                    "familyName": "Kirkby",
+                    "givenName": "Hannah",
+                    "displayNameLastFirst": "Kirkby, Hannah",
+                    "unstructuredName": "Hannah Kirkby"
+                }]
+            }, {
+                "resourceName": "people/104912305287714105929",
+                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "104912305287714105929"
+                        }
+                    },
+                    "displayName": "Kirkby, Phyllis",
+                    "familyName": "Kirkby",
+                    "givenName": "Phyllis",
+                    "displayNameLastFirst": "Kirkby, Phyllis",
+                    "unstructuredName": "Phyllis Kirkby"
+                }]
+            }]
+        },
+        "headers": {
+            "alt-svc": "h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+            "cache-control": "private",
+            "connection": "close",
+            "content-encoding": "gzip",
+            "content-type": "application/json; charset=UTF-8",
+            "date": "Fri, 23 Oct 2020 21:41:45 GMT",
+            "server": "ESF",
+            "transfer-encoding": "chunked",
+            "vary": "Origin, X-Origin, Referer",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "0"
+        },
+        "status": 200,
+        "statusText": "OK",
+        "request": {
+            "responseURL": "https://people.googleapis.com/v1/people:listDirectoryPeople?readMask=names%2Caddresses&sources=DIRECTORY_SOURCE_TYPE_DOMAIN_PROFILE"
+        }
+    }
+}
