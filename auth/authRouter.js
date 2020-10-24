@@ -27,7 +27,7 @@ router.get('/register', async (req, res, next) => {
         // const apiData = await oAuth2Client.request({ url });
 
 
-        const apiData = await g.api.people_v1.people.listDirectoryPeople({
+        const apiData = await g.api.people.listDirectoryPeople({
             readMask: 'names,phoneNumbers',
             sources: 'DIRECTORY_SOURCE_TYPE_DOMAIN_PROFILE'
         });

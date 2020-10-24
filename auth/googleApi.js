@@ -2,6 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 const { google } = require('googleapis');
+const plus = google.plus('v1');
+
 let oAuth2Client = undefined;
 
 function config() {
@@ -11,7 +13,7 @@ function config() {
     // or default to ./oauth2.keys.json
     const keyPath = process.env.OAUTH_KEYS_PATH ?
         process.env.OAUTH_KEYS_PATH :
-        path.join(__dirname, '../oauth2.keys.json');
+        path.join(__dirname, '..', 'oauth2.keys.json');
 
     console.log(keyPath);
 
@@ -50,7 +52,7 @@ async function retrieveTokens(authCode) {
 }
 
 module.exports = {
-    api: google,
+    api: plus,
     config,
     retrieveTokens
 }
