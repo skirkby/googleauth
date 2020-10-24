@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const api = require('googleapis');
+const { google } = require('googleapis');
 const oAuth2Client = undefined;
 
 function config() {
@@ -17,13 +17,13 @@ function config() {
         keys = require(keyPath).web;
     }
 
-    oAuth2Client = new api.auth.OAuth2(
+    oAuth2Client = new google.auth.OAuth2(
         keys.client_id,
         keys.client_secret,
         keys.redirect_uris[0]
     );
 
-    api.options({ auth: oAuth2Client });
+    google.options({ auth: oAuth2Client });
 
 }
 
@@ -45,7 +45,8 @@ async function retrieveTokens(authCode) {
 }
 
 module.exports = {
-    api,
     config,
     retrieveTokens
 }
+
+module.exports.api = google;
