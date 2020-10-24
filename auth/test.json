@@ -1,23 +1,23 @@
 {
     "message": "api up",
     "tokens": {
-        "access_token": "ya29.a0AfH6SMAfJr39xXrd_Yq4S-eq3HLQb7CATJZRVU5t5AYlpahs_4pMSF2qNFGiYgqmo9p-0mCkAO9te3czDCrsH2Bv49Tryj1ct5uZVb-A2aAgDYhYEKihW4G6nhwC8AhE0ws9gQg5qsFfuSsd95qUkePU7AipzjLBzWY",
+        "access_token": "ya29.a0AfH6SMAlTbbPGxNGUNV54fa63s2NmrZFbCj_xv4rbDTeCErNG-y8RvsF8dkViqq2Ll_zb7fs06OR0O3-pnWwB4xKJyIkpdTkF66l2sd3IpTbcDHu9c3N05hiKwGxbTW6n4oE0VKdp_MdJLFLDtiDQcYQW_BseqjUF0U",
         "scope": "https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/directory.readonly openid",
         "token_type": "Bearer",
-        "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE3OGFiMWRjNTkxM2Q5MjlkMzdjMjNkY2FhOTYxODcyZjhkNzBiNjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMTA5OTg4NDExNTEtMGg4aTJhNWYyM3BuZHVzcjMxaTlzZzgzaG50YWVmZmcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIxMTA5OTg4NDExNTEtMGg4aTJhNWYyM3BuZHVzcjMxaTlzZzgzaG50YWVmZmcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDIzNTQyMDM5ODk3MTc1NTU0NTIiLCJhdF9oYXNoIjoicFh6MjI1a1R5WnNadk5HWDZGSm5hdyIsIm5vbmNlIjoibWVuIHdpdGhvdXQgaGF0cyIsIm5hbWUiOiJTZWFuIEtpcmtieSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQU9oMTRHaTEwcmwyaFo4OFRHcy1XMHphRzQ3Qk0xRzhFUnFjb1FPdGFhSEdKcHc9czk2LWMiLCJnaXZlbl9uYW1lIjoiU2VhbiIsImZhbWlseV9uYW1lIjoiS2lya2J5IiwibG9jYWxlIjoiZW4iLCJpYXQiOjE2MDM0ODkzMDUsImV4cCI6MTYwMzQ5MjkwNX0.hi_tEdtsu8QNq_OGqRDxcuDNgpyG7JTtDZ2Bsl_8DoE5hDN2Spuatb2dJvrpDrpmDZXFySLVqqNBtJ98PhqmFziST7EWVywhatcfs5bL0lxjD09-Ou2WA_q9wLk6ug0yTGJpgsdsBl4jLyrX_-An9P5Z1XAw8k3tRNAdmdfWOPG_r5HeSNplFWNmMSC2WGTaCWkxn3sr8DT4fQV3X_OD3HifoC_DGrmMTipeE4CXD1j8MpB5gwZ7AD44JQUkILbhOIGod9lnZ_hxWrHauLIqch8zTBUwlUCYRzC_oiNQyHF_XUQoaBZspOTKri8xBx1Q1gKqw7kHJlB0kwwSnyHIgw",
-        "expiry_date": 1603492904186
+        "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE3OGFiMWRjNTkxM2Q5MjlkMzdjMjNkY2FhOTYxODcyZjhkNzBiNjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMTA5OTg4NDExNTEtMGg4aTJhNWYyM3BuZHVzcjMxaTlzZzgzaG50YWVmZmcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIxMTA5OTg4NDExNTEtMGg4aTJhNWYyM3BuZHVzcjMxaTlzZzgzaG50YWVmZmcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDIzNTQyMDM5ODk3MTc1NTU0NTIiLCJhdF9oYXNoIjoiSkFXaUxSel9TSjFtT0pNVTdPMG1IQSIsIm5vbmNlIjoibWVuIHdpdGhvdXQgaGF0cyIsIm5hbWUiOiJTZWFuIEtpcmtieSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS0vQU9oMTRHaTEwcmwyaFo4OFRHcy1XMHphRzQ3Qk0xRzhFUnFjb1FPdGFhSEdKcHc9czk2LWMiLCJnaXZlbl9uYW1lIjoiU2VhbiIsImZhbWlseV9uYW1lIjoiS2lya2J5IiwibG9jYWxlIjoiZW4iLCJpYXQiOjE2MDM0OTAyMTUsImV4cCI6MTYwMzQ5MzgxNX0.aWimHE61sp2cYbhUWEKbK_epFq5JBbVLjKNtfMNgGMI8zpZfN_nvzJ5V7WsOYmSFO7NPhxmDsl8HA3zalNKn61MSQm1xEuue2MTeUhD2ZDcJcFmJC2fLOUgigkRCNcVpjLm2vq0_CTqO3SuZP7a8aBLqldkdA22Qbz5xsrZ093Mx-MTEPl2XQZUKc_0xeUM-LqHewH1qjt4HAgDZFWItEwdWnlQTAjg0dgbmeN_WSkmUfv-_YoXoOragYzyf8TLBlfbwo_dKklwHBB2ZuFs87j-i2_l4M5gX4RULR5DJfLaO7IibVT7zyg0ETeVC_21ClAhcUgbGRyK5Qy-iPiZR3g",
+        "expiry_date": 1603493814968
     },
     "data": {
         "config": {
-            "url": "https://people.googleapis.com/v1/people:listDirectoryPeople?readMask=names%2Caddresses&sources=DIRECTORY_SOURCE_TYPE_DOMAIN_PROFILE",
+            "url": "https://people.googleapis.com/v1/people:listDirectoryPeople?readMask=names%2Cgenders%2CphoneNumbers&sources=DIRECTORY_SOURCE_TYPE_DOMAIN_PROFILE",
             "headers": {
-                "Authorization": "Bearer ya29.a0AfH6SMAfJr39xXrd_Yq4S-eq3HLQb7CATJZRVU5t5AYlpahs_4pMSF2qNFGiYgqmo9p-0mCkAO9te3czDCrsH2Bv49Tryj1ct5uZVb-A2aAgDYhYEKihW4G6nhwC8AhE0ws9gQg5qsFfuSsd95qUkePU7AipzjLBzWY",
+                "Authorization": "Bearer ya29.a0AfH6SMAlTbbPGxNGUNV54fa63s2NmrZFbCj_xv4rbDTeCErNG-y8RvsF8dkViqq2Ll_zb7fs06OR0O3-pnWwB4xKJyIkpdTkF66l2sd3IpTbcDHu9c3N05hiKwGxbTW6n4oE0VKdp_MdJLFLDtiDQcYQW_BseqjUF0U",
                 "User-Agent": "google-api-nodejs-client/6.1.1",
                 "x-goog-api-client": "gl-node/12.19.0 auth/6.1.1",
                 "Accept": "application/json"
             },
             "params": {
-                "readMask": "names,addresses",
+                "readMask": "names,genders,phoneNumbers",
                 "sources": "DIRECTORY_SOURCE_TYPE_DOMAIN_PROFILE"
             },
             "responseType": "json",
@@ -26,7 +26,7 @@
         "data": {
             "people": [{
                 "resourceName": "people/103177312806583469083",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -43,7 +43,7 @@
                 }]
             }, {
                 "resourceName": "people/112218238759853340086",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -60,10 +60,10 @@
                 }]
             }, {
                 "resourceName": "people/105658923659700681035",
-                "etag": "%EgcBAj0QQDcuGgIBBw=="
+                "etag": "%EggBAj0ICz83LhoCAQc="
             }, {
                 "resourceName": "people/112351282597863966840",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -80,7 +80,7 @@
                 }]
             }, {
                 "resourceName": "people/112309663133232943883",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -97,7 +97,7 @@
                 }]
             }, {
                 "resourceName": "people/111123645121968671022",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -113,31 +113,14 @@
                     "unstructuredName": "Nathan Kirkby"
                 }]
             }, {
-                "resourceName": "people/102354203989717555452",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
-                "names": [{
-                    "metadata": {
-                        "primary": true,
-                        "source": {
-                            "type": "PROFILE",
-                            "id": "102354203989717555452"
-                        }
-                    },
-                    "displayName": "Kirkby, Sean",
-                    "familyName": "Kirkby",
-                    "givenName": "Sean",
-                    "displayNameLastFirst": "Kirkby, Sean",
-                    "unstructuredName": "Sean Kirkby"
-                }]
-            }, {
                 "resourceName": "people/111510807261929853067",
-                "etag": "%EgcBAj0QQDcuGgIBBw=="
+                "etag": "%EggBAj0ICz83LhoCAQc="
             }, {
                 "resourceName": "people/109798176198424758859",
-                "etag": "%EgcBAj0QQDcuGgIBBw=="
+                "etag": "%EggBAj0ICz83LhoCAQc="
             }, {
                 "resourceName": "people/114071827828852842987",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -154,7 +137,7 @@
                 }]
             }, {
                 "resourceName": "people/104269718195825835350",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -171,7 +154,7 @@
                 }]
             }, {
                 "resourceName": "people/101053582140926510946",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -188,13 +171,13 @@
                 }]
             }, {
                 "resourceName": "people/107411931401231327738",
-                "etag": "%EgcBAj0QQDcuGgIBBw=="
+                "etag": "%EggBAj0ICz83LhoCAQc="
             }, {
                 "resourceName": "people/107431588102094793107",
-                "etag": "%EgcBAj0QQDcuGgIBBw=="
+                "etag": "%EggBAj0ICz83LhoCAQc="
             }, {
                 "resourceName": "people/115978321851827565004",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -211,7 +194,7 @@
                 }]
             }, {
                 "resourceName": "people/105511885824776701345",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -228,7 +211,7 @@
                 }]
             }, {
                 "resourceName": "people/115605469401858656068",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -245,7 +228,7 @@
                 }]
             }, {
                 "resourceName": "people/109893621843454795996",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -262,7 +245,7 @@
                 }]
             }, {
                 "resourceName": "people/118032678552636079814",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -279,7 +262,7 @@
                 }]
             }, {
                 "resourceName": "people/107210344968326561056",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -293,22 +276,10 @@
                     "givenName": "Amanda",
                     "displayNameLastFirst": "Kirkby, Amanda",
                     "unstructuredName": "Amanda Kirkby"
-                }],
-                "addresses": [{
-                    "metadata": {
-                        "primary": true,
-                        "source": {
-                            "type": "DOMAIN_PROFILE",
-                            "id": "107210344968326561056"
-                        }
-                    },
-                    "formattedValue": "mander@kirkby.org",
-                    "type": "home",
-                    "formattedType": "Home"
                 }]
             }, {
                 "resourceName": "people/110980455162024880159",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -325,7 +296,7 @@
                 }]
             }, {
                 "resourceName": "people/104912305287714105929",
-                "etag": "%EgcBAj0QQDcuGgIBBw==",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
                 "names": [{
                     "metadata": {
                         "primary": true,
@@ -340,6 +311,47 @@
                     "displayNameLastFirst": "Kirkby, Phyllis",
                     "unstructuredName": "Phyllis Kirkby"
                 }]
+            }, {
+                "resourceName": "people/102354203989717555452",
+                "etag": "%EggBAj0ICz83LhoCAQc=",
+                "names": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "PROFILE",
+                            "id": "102354203989717555452"
+                        }
+                    },
+                    "displayName": "Kirkby, Sean",
+                    "familyName": "Kirkby",
+                    "givenName": "Sean",
+                    "displayNameLastFirst": "Kirkby, Sean",
+                    "unstructuredName": "Sean Kirkby"
+                }],
+                "phoneNumbers": [{
+                    "metadata": {
+                        "primary": true,
+                        "source": {
+                            "type": "DOMAIN_PROFILE",
+                            "id": "102354203989717555452"
+                        }
+                    },
+                    "value": "+1 801 367-3943",
+                    "canonicalForm": "+18013673943",
+                    "type": "mobile",
+                    "formattedType": "Mobile"
+                }, {
+                    "metadata": {
+                        "source": {
+                            "type": "DOMAIN_PROFILE",
+                            "id": "102354203989717555452"
+                        }
+                    },
+                    "value": "+1 801 225-5093",
+                    "canonicalForm": "+18012255093",
+                    "type": "home",
+                    "formattedType": "Home"
+                }]
             }]
         },
         "headers": {
@@ -348,7 +360,7 @@
             "connection": "close",
             "content-encoding": "gzip",
             "content-type": "application/json; charset=UTF-8",
-            "date": "Fri, 23 Oct 2020 21:41:45 GMT",
+            "date": "Fri, 23 Oct 2020 21:56:56 GMT",
             "server": "ESF",
             "transfer-encoding": "chunked",
             "vary": "Origin, X-Origin, Referer",
@@ -359,7 +371,7 @@
         "status": 200,
         "statusText": "OK",
         "request": {
-            "responseURL": "https://people.googleapis.com/v1/people:listDirectoryPeople?readMask=names%2Caddresses&sources=DIRECTORY_SOURCE_TYPE_DOMAIN_PROFILE"
+            "responseURL": "https://people.googleapis.com/v1/people:listDirectoryPeople?readMask=names%2Cgenders%2CphoneNumbers&sources=DIRECTORY_SOURCE_TYPE_DOMAIN_PROFILE"
         }
     }
 }
