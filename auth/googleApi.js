@@ -50,8 +50,7 @@ async function retrieveTokens(authCode) {
 }
 
 module.exports = {
+    api: google,
     config,
     retrieveTokens
 }
-
-module.exports.api = google;
