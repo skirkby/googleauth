@@ -107,4 +107,4 @@ dist
 .DS_Store
 
 # Google OAuth2 Keys JSON file
-oauth2.keys.json
+#oauth2.keys.json
