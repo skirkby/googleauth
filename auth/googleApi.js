@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const { google } = require('googleapis');
-const oAuth2Client = undefined;
+let oAuth2Client = undefined;
 
 function config() {
 
