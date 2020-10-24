@@ -11,7 +11,7 @@ function config() {
     // or default to ./oauth2.keys.json
     const keyPath = process.env.OAUTH_KEYS_PATH ?
         process.env.OAUTH_KEYS_PATH :
-        path.join(__dirname, '..\\oauth2.keys.json');
+        path.join(__dirname, '../oauth2.keys.json');
 
     console.log(keyPath);
 
